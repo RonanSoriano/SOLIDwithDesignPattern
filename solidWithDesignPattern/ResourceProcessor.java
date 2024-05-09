@@ -3,16 +3,16 @@ package solidWithDesignPattern;
 import java.util.Map;
 
 public class ResourceProcessor {
-    private final Map<String, ResourceBorrower> resourceTypes;
+    private final Map<String, ResourceBorrower> resourceType;
 
     public ResourceProcessor(Map<String, ResourceBorrower> resourceType) {
-        this.resourceTypes = resourceType;
+        this.resourceType = resourceType;
     }
 
     public void borrowResource(Student student, Resource resource) {
-        ResourceBorrower resourceBorrower = resourceTypes.get(resource.getResourceType());
+        ResourceBorrower resourceBorrower = resourceType.get(resource.getResourceType());
 
-        if (!resourceTypes.containsKey(resource.getResourceType())) {
+        if (!resourceType.containsKey(resource.getResourceType())) {
             throw new IllegalArgumentException("Invalid resource type: " + resource.getResourceType());
         }
 
