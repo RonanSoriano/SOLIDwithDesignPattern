@@ -11,3 +11,4 @@ Your solution should not violate other SOLID principles.
 Make sure you have a TestProgram that will validate the proposed refactored codes.
 
 ## Class Diagram
+![Solid Design Principles V2](https://github.com/RonanSoriano/SOLIDwithDesignPattern/assets/142371669/d8b49580-47b6-4691-8e4c-260212f7a212)
