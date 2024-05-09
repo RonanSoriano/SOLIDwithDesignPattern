@@ -30,13 +30,14 @@ public class LibraryResourceTest {
         resourceProcessor.borrowResource(student1, book);
         System.out.println();
 
-        resourceProcessor.borrowResource(student2, audioBook);
+        resourceProcessor.borrowResource(student1, audioBook);
         System.out.println();
 
-        resourceProcessor.borrowResource(student3, journal);
+        resourceProcessor.borrowResource(student2, journal);
         System.out.println();
 
-        resourceProcessor.borrowResource(student2, thesis);
+        resourceProcessor.borrowResource(student3, thesis);
+        System.out.println();
 
     }
 }
