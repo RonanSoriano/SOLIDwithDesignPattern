@@ -10,10 +10,4 @@ public class Student {
     public String getName() {
         return name;
     }
-
-
-    void borrowResource( ResourceType resourceType) {
-        resourceType.borrow(this.getName());
-    }
-
 }
